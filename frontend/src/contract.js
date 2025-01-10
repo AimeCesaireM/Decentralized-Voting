@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-const address = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
+const address = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 const abi = [
   "event MemberJoined(address indexed member, uint256 joinedAt)",
   "event VoteCreated(address indexed owner, uint256 indexed voteId, uint256 indexed createdAt, uint256 endTime)",
@@ -13,20 +13,24 @@ const abi = [
   "function vote(uint256 voteId, uint256 option)",
 ];
 
+let provider = new Object();
 
-try {
-  const provider = new ethers.BrowserProvider(window.ethereum);
-} catch (error) {
-  console.log(error);
+if (window.ethereum === undefined) {
   alert(
     "Please install the Metamask extension at https://metamask.io/ then refresh this page. Using read-only defaults for now."
   );
 }
+else {
+  provider = new ethers.BrowserProvider(window.ethereum);
+}
+
 
 export const connect = async () => {
   try {
     //eslint-disable-next-line
-    await provider.send("eth_requestAccounts", []);
+    await provider.send("eth_requestAccounts", []).catch(
+      () => alert("Please install the Metamask extension at https://metamask.io/ then refresh this page.")
+    );
     return getContract();
   } catch (error) {
     alert("Please install the Metamask extension at https://metamask.io/ then refresh this page.");
@@ -37,7 +41,8 @@ export const connect = async () => {
 export const getContract = async () => {
   try {
     //eslint-disable-next-line
-    const signer = await provider.getSigner();
+    const signer = await provider.getSigner().catch(
+      () => alert("Please install the Metamask extension at https://metamask.io/ then refresh this page."));
     const contract = new ethers.Contract(address, abi, signer);
     return { contract: contract, signer: signer };
   } catch (error) {
