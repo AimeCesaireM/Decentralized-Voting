@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1366 768">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st2 {
+        fill: #e81b23;
+      }
+
+      .st3 {
+        fill: #00aef3;
+      }
+
+      .st4 {
+        fill: #3f1f69;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="st4" x=".6" y="1" width="1364.8" height="773.9"/>
+    <path class="st0" d="M1364.8,1.1v772.7H1.2V1.1h1363.8M1366,0H0v775h1366V0h0Z"/>
+  </g>
+  <polygon class="st2" points="135.2 227.5 1080.9 81.5 1143.8 356.2 198.2 502.1 135.2 227.5"/>
+  <g>
+    <polygon class="st3" points="179 443.1 1136.5 293.6 1176.5 567.2 219 716.7 179 443.1"/>
+    <path class="st0" d="M1136.2,293.4l40,272.3-956.3,150-40-272.3,956.3-150M1137.1,291.8L178.5,442.3l40.4,274.9,958.7-150.3-40.4-274.9h0Z"/>
+  </g>
+  <path class="st0" d="M791.6,335.3s380.8,261.7,483.1-186.8c0,0-113.2,299.6-513.5,122.7"/>
+  <path class="st0" d="M807.1,466.2s349.3,244,475.9-131.9c0,0-127.7,248.6-501,75.6"/>
+  <path class="st1" d="M878.3,188.6"/>
+  <path class="st1" d="M1187.2,136.5"/>
+</svg>
