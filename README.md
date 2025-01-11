@@ -90,6 +90,10 @@ All tests were run locally in the development environment using **Hardhat**.
     ```bash
     npx hardhat run scripts/deploy.js --network <network-name>
     ```
+    If you are deploying to a localhost, then start the local hardhat test network before step 6.
+   ```bash
+   npx hardhat node
+    ```
 
 ### Frontend
 
