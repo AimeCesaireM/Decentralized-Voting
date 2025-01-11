@@ -128,7 +128,8 @@ To interact with the Ethereum network, ensure you have **MetaMask** installed an
 
 ## Potential Challenges
 
-1. For some institutions where we would need to enforce that users do not use different wallers to vote multiple times--  they can make institutional email addresses a field in their poll. To maintain anonymity, the emails would be hashed before being stored on the blockchain. Access to the voting platform can also be hidden SSO authentication.
+1. For institutions that want to enforce that users do not use different wallets to vote multiple times--  they can make institutional email addresses a field in their poll. To maintain anonymity, the emails would be hashed before being stored on the blockchain.
+2. To guard against unwelcome voters, the voting platform can be put behind an institution's SSO authentication.
 
 ## License
 This project is licensed under the MIT license
