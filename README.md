@@ -1,6 +1,8 @@
 
 # Mammoth Rumble: A Decentralized Voting Solution
 
+## See The Live Project, hosted on Google Cloud with Apache [here](http://34.44.182.12/):
+
 ## Introduction
 
 Decentralized Voting is a Web3 solution that aims to solve the issues of election opacity and manipulation, especially in smaller institutions where traditional election processes are vulnerable to changes in results. Many small organizations, such as university clubs or student governments, rely on tools like Google Forms to run elections, which can be easily tampered with by those in control. This project uses blockchain technology to ensure transparency, immutability, and accountability in the election process. 
@@ -21,6 +23,7 @@ With the increasing distrust in traditional election methods, Decentralized Voti
 - **Solidity**: The programming language used to write smart contracts on the Ethereum blockchain.
 - **Hardhat**: A development environment to compile, test, and deploy Ethereum smart contracts.
 - **JSON**: Created on frontend to store the details of a poll. It is then to be uploaded to an IPFS server.
+- **Apache and Google Cloud**: I used Apache and Google cloud for deployment and hosting the completed project
   
 ### Testing:
 - **Chai**: A BDD / TDD assertion library for Node.js and browsers.
