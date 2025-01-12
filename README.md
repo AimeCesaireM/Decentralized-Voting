@@ -1,7 +1,7 @@
 
 # Mammoth Rumble: A Decentralized Voting Solution
 
-## See The Live Project, hosted on Google Cloud with Apache [here](http://34.44.182.12/):
+## See The Live Project, hosted on Google Cloud with Apache [here](http://34.16.36.118/):
 
 ## Introduction
 
