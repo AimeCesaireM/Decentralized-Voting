@@ -1,7 +1,3 @@
-Here's an updated `README.md` that includes the screenshots:
-
----
-
 # Decentralized Voting - Frontend
 
 ## Introduction
